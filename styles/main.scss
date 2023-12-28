@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/css/fonts.min.css');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body nav {
+    font-family: 'Robotto', sans-serif;
+}
+
+
+
+
+.text-navbar {
+    @apply text-[14px] leading-[24px] text-secondary font-normal;
+}
+
+.button-rounded-none {
+    @apply bg-secondary py-[8px] px-[20px] text-white 
+}
+
+.button-reverse-border {
+    @apply border-2 text-secondary border-secondary py-[4px] px-[40px]
+}
+
+.card-category {
+    @apply border-[1px] border-[#FFFFFFD9] shadow-2xl px-[50px] py-[50px] max-w-[250px] rounded-[10px]
+}
+
+.card-product {
+    box-shadow: 0px 0px 5px 0px #00000099;
+    @apply border-[1px] border-[#FFFFFFD9]   max-w-[300px] rounded-[10px] px-[30px] py-[20px]
+}
+
+
+.h1 {
+    @apply  text-[26px] font-black leading-[38px] mb-[18px];
+}
+
+
+.input-account {
+    @apply px-3 py-3 min-w-[379px] rounded-lg
+}
+
+.button-reverse {
+    @apply bg-white text-primary py-[8px] px-[30px] rounded-lg
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px 0px #00000099
+}
