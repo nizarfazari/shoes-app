@@ -36,6 +36,10 @@ body nav {
     @apply border-[1px] border-[#FFFFFFD9]   max-w-[300px] rounded-[10px] px-[30px] py-[20px]
 }
 
+.card-recomendation {
+    border: 1px solid #00000059;
+}
+
 
 .h1 {
     @apply  text-[26px] font-black leading-[38px] mb-[18px];
