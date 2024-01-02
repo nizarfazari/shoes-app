@@ -57,3 +57,18 @@ body nav {
 .shadow {
     box-shadow: 0px 0px 5px 0px #00000099
 }
+
+
+.square {
+    @apply w-[40px] h-[40px] rounded-[10px]
+}
+
+
+.progress-rounded .css-1jrtelv {
+    @apply rounded-lg
+}
+
+.card-comment {
+    border: 1px solid #6D6C80;
+    @apply rounded-lg p-5
+}

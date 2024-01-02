@@ -19,8 +19,13 @@ module.exports = {
       },
       purples : "#E7ECFF",
       grey : {
-        secondary : "#939EA4"
-      }
+        primary : "#C4C4C4",
+        secondary : "#939EA4",
+        tertiary : "#6D7973"
+      },
+      pink : "#FF268B",
+      yellow : "#E2E61E",
+      brown : "#9D3856"
     },
 
     container : {
