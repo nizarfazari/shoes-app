@@ -27,7 +27,7 @@ const ImageZoom = () => {
                     enlargedImagePosition="over"
                     isHintEnabled={true}
                     shouldHideHintAfterFirstActivation={false}
-
+                    isEnlargedImagePortalEnabledForTouch={true}
                     smallImage={{
                         alt: "Wristwatch by Ted Baker London",
                         isFluidWidth: true,
@@ -37,8 +37,8 @@ const ImageZoom = () => {
                     }}
                     largeImage={{
                         src: imageAct,
-                        width: 500,
-                        height: 500
+                        width: 1426,
+                        height: 2000
                     }}
                     lensStyle={{ backgroundColor: "rgba(0,0,0,.6)" }}
                 />

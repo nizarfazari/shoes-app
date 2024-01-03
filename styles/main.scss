@@ -36,6 +36,12 @@ body nav {
     @apply border-[1px] border-[#FFFFFFD9]   max-w-[300px] rounded-[10px] px-[30px] py-[20px]
 }
 
+.card-shoes {
+    box-shadow: 0px 0px 5px 0px #00000099;
+    
+    @apply border-[1px] border-[#FFFFFFD9]  rounded-[10px] 
+}
+
 .card-recomendation {
     border: 1px solid #00000059;
 }
@@ -60,7 +66,7 @@ body nav {
 
 
 .square {
-    @apply w-[40px] h-[40px] rounded-[10px]
+    @apply w-[30px] h-[30px] rounded-[10px]
 }
 
 
@@ -72,3 +78,61 @@ body nav {
     border: 1px solid #6D6C80;
     @apply rounded-lg p-5
 }
+
+
+
+
+
+
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; /* Adjust the padding as needed */
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Hide default checkbox */
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Style custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px; /* Adjust the size as needed */
+    width: 20px; /* Adjust the size as needed */
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+
+  /* Style checked checkbox */
+  .checkbox-container input:checked + .checkmark {
+    background-color: #CF6605; /* Change the background color when checked */
+    border: 1px solid #CF6605; /* Change the border color when checked */
+  }
+
+  /* Style checkmark inside the checkbox */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  /* Show checkmark when checkbox is checked */
+  .checkbox-container input:checked + .checkmark:after {
+    display: block;
+  }

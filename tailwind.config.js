@@ -25,7 +25,8 @@ module.exports = {
       },
       pink : "#FF268B",
       yellow : "#E2E61E",
-      brown : "#9D3856"
+      brown : "#9D3856",
+      red : "#FF4545"
     },
 
     container : {
