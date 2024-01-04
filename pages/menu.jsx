@@ -8,24 +8,22 @@ import ImageZoom from "@/components/menu/ImageZoom";
 const Menu = () => {
     return (
         <div>
-            <div>
-                <Breadcrumb>
-                    <BreadcrumbItem>
-                        <BreadcrumbLink href='#'>Home</BreadcrumbLink>
-                    </BreadcrumbItem>
+            <Breadcrumb>
+                <BreadcrumbItem>
+                    <BreadcrumbLink href='#'>Home</BreadcrumbLink>
+                </BreadcrumbItem>
 
-                    <BreadcrumbItem>
-                        <BreadcrumbLink href='#'>Shop</BreadcrumbLink>
-                    </BreadcrumbItem>
+                <BreadcrumbItem>
+                    <BreadcrumbLink href='#'>Shop</BreadcrumbLink>
+                </BreadcrumbItem>
 
-                    <BreadcrumbItem isCurrentPage>
-                        <BreadcrumbLink href='#'>Detail</BreadcrumbLink>
-                    </BreadcrumbItem>
-                </Breadcrumb>
-            </div>
+                <BreadcrumbItem isCurrentPage>
+                    <BreadcrumbLink href='#'>Detail</BreadcrumbLink>
+                </BreadcrumbItem>
+            </Breadcrumb>
             <ImageZoom />
 
-           <DetailProductMenu />
+            <DetailProductMenu />
 
             <DescriptionMenu />
 

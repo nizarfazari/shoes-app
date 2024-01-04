@@ -1,24 +1,22 @@
 import Image from "next/image"
 import { FaWindowClose } from "react-icons/fa";
 import { BiSolidDiscount } from "react-icons/bi";
+
+import { Checkbox, CheckboxGroup } from '@chakra-ui/react'
 const Checkout = () => {
     return (
         <div className="h-screen">
             <div className="flex items-center justify-between my-10">
                 <h4>Total Item ( 1 )</h4>
-                <label class="checkbox-container">
+                <Checkbox size='lg' colorScheme='orange' >
                     Pilih Semua
-                    <input type="checkbox" />
-                    <span class="checkmark"></span>
-                </label>
+                </Checkbox>
             </div>
 
             <div className="grid grid-cols-3 border-y-[1px] py-10 justify-items-center">
                 <div className="col-span-1 max-w-[350px] relative">
-                    <label class="checkbox-container left-[-70px] top-[10px]">
-                        <input type="checkbox" />
-                        <span class="checkmark"></span>
-                    </label>
+                    <Checkbox size='lg' colorScheme='orange'  className="absolute left-[-60px] top-[30px]">
+                    </Checkbox>
                     <div className="flex justify-between mb-4">
                         <div>
                             <h4>Nike Kyrie 6 tb white</h4>
