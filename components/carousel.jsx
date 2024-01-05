@@ -21,7 +21,7 @@ const Carousel = () => {
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
                         <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
-                            dan terbaru semua modelnya”
+                            dan terbaru semua modelnya&ldquo;
 
                         </p>
                         <div className="justify-center flex">
@@ -36,7 +36,7 @@ const Carousel = () => {
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
                         <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
-                            dan terbaru semua modelnya”
+                            dan terbaru semua modelnya&ldquo;
 
                         </p>
                         <div className="justify-center flex">
@@ -51,7 +51,7 @@ const Carousel = () => {
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
                         <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
-                            dan terbaru semua modelnya”
+                            dan terbaru semua modelnya&ldquo;
 
                         </p>
                         <div className="justify-center flex">
@@ -66,7 +66,7 @@ const Carousel = () => {
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
                         <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
-                            dan terbaru semua modelnya”
+                            dan terbaru semua modelnya&ldquo;
 
                         </p>
                         <div className="justify-center flex">
