@@ -16,7 +16,7 @@ const DescriptionMenu = () => {
                 Teknologi
                 Dalam Merayakan Hari Perempuan Internasional,
                 Kami Telah Memperbarui Nike kyre 6 Terbaik Yang Pernah Ada Dengan Keseluruhan,
-                Grafik Berwarna. Cetakan "Kisah Saya" Berfungsi Sebagai Pengingat Untuk Menggunakan
+                Grafik Berwarna. Cetakan &ldquo;Kisah Saya&ldquo; Berfungsi Sebagai Pengingat Untuk Menggunakan
                 Suara Anda Dan Tetap Berdaya. Ikon Gaya yang Ditinggikan, Ini Menampilkan Lebih Banyak Bantalan
             </p>
         </div >
