@@ -3,6 +3,7 @@ import { FaWindowClose } from "react-icons/fa";
 import { BiSolidDiscount } from "react-icons/bi";
 
 import { Checkbox, CheckboxGroup } from '@chakra-ui/react'
+import Link from "next/link";
 const Checkout = () => {
     return (
         <div className="h-screen">
@@ -55,7 +56,7 @@ const Checkout = () => {
                     <h4 className="mb-1">Total </h4>
                     <div>
                         <span className="mr-10">Rp. 600.000</span>
-                        <button className="button-rounded-none rounded-lg">Checkout Now</button>
+                        <Link href={"/transactions"} className="button-rounded-none rounded-lg">Checkout Now</Link>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Login = () => {
                 <div className="text-center text-white flex flex-col items-center gap-[30px]">
                     <h1 className="text-[48px] leading-[24px]">SELAMAT DATANG</h1>
                     <p className="max-w-[345px] text-[20px] leading-[24px]">Belum mempunyai akun? Klik tombol di bawah ini</p>
-                    <a className="button-reverse text-[20px] font-medium" href="">Sign Up</a>
+                    <a className="button-reverse text-[20px] font-medium" href="/register">Sign Up</a>
                 </div>
             </div>
             <div className="bg-primary flex flex-col items-center justify-center">
@@ -23,7 +23,7 @@ const Login = () => {
                 <p className="text-white my-4">Atau gunakan email untuk login</p>
                 <div className="button-reverse text-[20px] font-medium flex items-center">
                     <FaGoogle className="mr-4 text-primary" />
-                    <a href="" >Sign Up With Google</a>
+                    <a href="/register" >Sign Up With Google</a>
                 </div>
             </div>
         </div>

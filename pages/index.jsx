@@ -1,4 +1,7 @@
+import Carousel from "@/components/carousel";
+import { Avatar } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { BsCartPlus } from "react-icons/bs";
 import { MdFavoriteBorder } from "react-icons/md";
@@ -17,7 +20,7 @@ const index = () => {
         </div>
         <div className="col-span-1 flex justify-end">
           <div className="">
-            <img src='/assets/home-banner.png'  alt="sepatu " />
+            <img src='/assets/home-banner.png' alt="sepatu " />
           </div>
         </div>
       </div>
@@ -35,24 +38,71 @@ const index = () => {
       <div className="mt-[60px]">
         <div className="flex justify-between items-center">
           <h1 className="h1 text-secondary">Produk Unggulan</h1>
-          <p className="text-[18px] leading-[20px] underline text-black-primary underline-offset-2">Lihat lainnya</p>
+          <Link href={"/catalog"} className="text-[18px] leading-[20px] underline text-black-primary underline-offset-2">Lihat lainnya</Link>
         </div>
-        <div className="card-product">
-          <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
-          <div className="flex justify-between items-center mt-5">
-            <p>Nike kyrie flytrap...</p>
-            <BsCartPlus />
-          </div>
-          <div className="flex justify-between items-center mt-2">
-            <p>Rp 1.150.000</p>
-            <MdFavoriteBorder />
-          </div>
+        <div className="grid grid-cols-4 gap-5">
+          <Link href={"/menu"} className="card-product col-span-1">
+            <div className="flex justify-center">
+              <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
+            </div>
+            <div className="flex justify-between items-center mt-5">
+              <p>Nike kyrie flytrap...</p>
+              <BsCartPlus />
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <p>Rp 1.150.000</p>
+              <MdFavoriteBorder />
+            </div>
+          </Link>
+          <Link href={"/menu"} className="card-product col-span-1">
+            <div className="flex justify-center">
+              <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
+            </div>
+            <div className="flex justify-between items-center mt-5">
+              <p>Nike kyrie flytrap...</p>
+              <BsCartPlus />
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <p>Rp 1.150.000</p>
+              <MdFavoriteBorder />
+            </div>
+          </Link>
+          <Link href={"/menu"} className="card-product col-span-1">
+            <div className="flex justify-center">
+              <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
+            </div>
+            <div className="flex justify-between items-center mt-5">
+              <p>Nike kyrie flytrap...</p>
+              <BsCartPlus />
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <p>Rp 1.150.000</p>
+              <MdFavoriteBorder />
+            </div>
+          </Link>
+          <Link href={"/menu"} className="card-product col-span-1">
+            <div className="flex justify-center">
+              <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
+            </div>
+            <div className="flex justify-between items-center mt-5">
+              <p>Nike kyrie flytrap...</p>
+              <BsCartPlus />
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <p>Rp 1.150.000</p>
+              <MdFavoriteBorder />
+            </div>
+          </Link>
+          
+
         </div>
       </div>
 
       {/* Testimoni */}
       <div className="mt-[60px]">
         <h1 className="h1 text-secondary">Apa Kata Mereka</h1>
+        <Carousel />
+
       </div>
     </div>
   );

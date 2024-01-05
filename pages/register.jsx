@@ -8,7 +8,7 @@ const Register = () => {
           <div className="text-center text-white flex flex-col items-center gap-[30px]">
             <h1 className="text-[48px] leading-[24px]">SELAMAT DATANG</h1>
             <p className="max-w-[345px] text-[20px] leading-[24px]">Untuk tetap terhubung dengan kami, silahkan masuk dengan akun anda</p>
-            <a className="button-reverse text-[20px] font-medium" href="">Login</a>
+            <a className="button-reverse text-[20px] font-medium" href="/login">Login</a>
           </div>
         </div>
         <div className="bg-primary flex flex-col items-center justify-center">

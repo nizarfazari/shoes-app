@@ -10,6 +10,7 @@ import {
     RangeSliderThumb,
 } from '@chakra-ui/react'
 import { useState } from 'react'
+import Link from 'next/link'
 
 
 const Catalog = () => {
@@ -109,7 +110,7 @@ const Catalog = () => {
                         </div>
                         <div className='grid grid-cols-3 gap-7 mt-10'>
                             {[1, 2, 3, 4].map((_,key) => (
-                                <div className="col-span-1 card-product" key={key}>
+                                <Link href={"/menu"} className="col-span-1 card-product" key={key}>
                                     <Image src='/assets/home/shoes.png' width={200} height={200} alt="sepatu " />
                                     <div className="flex justify-between items-center mt-5">
                                         <p>Nike kyrie flytrap...</p>
@@ -129,7 +130,7 @@ const Catalog = () => {
                                         </div>
                                         <p>( 100 ulasan )</p>
                                     </div>
-                                </div>
+                                </Link>
                             ))}
                         </div>
                     </div>

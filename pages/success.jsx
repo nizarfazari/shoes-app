@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 const Success = () => {
     return (
@@ -7,7 +8,7 @@ const Success = () => {
                 <p className="text-lg text-balance max-w-[420px]">Silahkan tunggu konfirmasi email dari kami dan kami akan menginformasikan resi secept mungkin!</p>
                 <div className="flex items-center gap-10">
                     <button className="button-rounded-none rounded-lg">Cek Detail Pesanan</button>
-                    <button className="button-reverse-border rounded-lg">Kembali</button>
+                    <Link href={"/"} className="button-reverse-border rounded-lg">Kembali</Link>
                 </div>
             </div>
 

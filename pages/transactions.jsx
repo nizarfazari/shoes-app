@@ -1,5 +1,6 @@
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Input } from "@chakra-ui/react"
 import Image from "next/image"
+import Link from "next/link";
 import { BiSolidDiscount } from "react-icons/bi"
 import { FaWindowClose } from "react-icons/fa"
 
@@ -175,7 +176,7 @@ const Transactions = () => {
             <h5>Total Pembayaran</h5>
             <h5>Rp 1.810.000</h5>
           </div>
-          <button className="button-rounded-none rounded-lg block text-center mt-5 w-full">Buat Pesanan</button>
+          <Link className="button-rounded-none rounded-lg block text-center mt-5 w-full" href={"/success"}>Buat Pesanan</Link>
         </div>
       </div>
 

@@ -1,4 +1,5 @@
 import { Select } from "@chakra-ui/react"
+import Link from "next/link"
 
 const DetailProductMenu = () => {
   return (
@@ -61,8 +62,8 @@ const DetailProductMenu = () => {
             <span>Stock 50</span>
         </div>
         <div className="flex items-center gap-4">
-            <button className="mt-3 button-reverse-border rounded-lg">Tambah ke troli</button>
-            <button className="mt-3 button-rounded-none rounded-lg">Beli Sekarang</button>
+            <Link href={"/checkout"} className="mt-3 button-reverse-border rounded-lg">Tambah ke troli</Link>
+            <Link href={"/checkout"} className="mt-3 button-rounded-none rounded-lg">Beli Sekarang</Link>
         </div>
     </div>
 </div>
