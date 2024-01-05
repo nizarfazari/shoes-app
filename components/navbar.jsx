@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Navbar = () => {
   return (
     <nav>
@@ -8,16 +10,16 @@ const Navbar = () => {
         <div className="list-navbar">
           <ul className="flex gap-[60px] items-center">
             <li className="text-navbar">
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
             </li>
             <li className="text-navbar">
-            <a href="/catalog">Menu</a>
+            <Link href="/catalog">Menu</Link>
             </li>
             <li className="text-navbar">
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
               </li>
             <li className="button-rounded-none">
-              <a href="/login">Login</a>
+              <Link href="/login">Login</Link>
             </li>
           </ul>
         </div>

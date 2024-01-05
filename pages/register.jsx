@@ -1,4 +1,5 @@
 import { PlainLayouts } from "@/layouts/PlainLayouts"
+import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
 const Register = () => {
   return (
@@ -8,7 +9,7 @@ const Register = () => {
           <div className="text-center text-white flex flex-col items-center gap-[30px]">
             <h1 className="text-[48px] leading-[24px]">SELAMAT DATANG</h1>
             <p className="max-w-[345px] text-[20px] leading-[24px]">Untuk tetap terhubung dengan kami, silahkan masuk dengan akun anda</p>
-            <a className="button-reverse text-[20px] font-medium" href="/login">Login</a>
+            <Link className="button-reverse text-[20px] font-medium" href="/login">Login</Link>
           </div>
         </div>
         <div className="bg-primary flex flex-col items-center justify-center">
@@ -18,12 +19,12 @@ const Register = () => {
             <input type="text" className="input-account" />
             <input type="text" className="input-account" />
             <input type="text" className="input-account" />
-            <a className="button-reverse text-[20px] font-medium" href="">Register</a>
+            <button className="button-reverse text-[20px] font-medium" >Register</button>
           </div>
           <p className="text-white my-4">Atau gunakan email untuk registrasi</p>
           <div className="button-reverse text-[20px] font-medium flex items-center">
           <FaGoogle className="mr-4 text-primary" />
-            <a href="" >Sign Up With Google</a>
+            <button href="" >Sign Up With Google</button>
           </div>
         </div>
       </div>

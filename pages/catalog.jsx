@@ -31,7 +31,7 @@ const Catalog = () => {
                         <Image src='/assets/catalog/logo-banner.png' width={200} height={200} alt="sepatu " />
                         <h2 className='mb-5 text-center'>Mau cari sepatu di MyShoes? Klik tombol di bawah ini</h2>
                         <div className=''>
-                            <a href="" className='button-rounded-none'>Katalog Sepatu</a>
+                            <Link href="" className='button-rounded-none'>Katalog Sepatu</Link>
                         </div>
                     </div>
                 </div>
