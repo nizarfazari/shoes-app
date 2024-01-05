@@ -19,7 +19,7 @@ const Carousel = () => {
                     <div className="shadow p-5 rounded-lg text-center mx-10 my-4">
                         <Avatar size={'lg'} className='!absolute top-[0px]  left-[197px]' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
-                        <p>“Sangat puas belanja disini semua
+                        <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
                             dan terbaru semua modelnya”
 
@@ -34,7 +34,7 @@ const Carousel = () => {
                     <div className="shadow p-5 rounded-lg text-center mx-10 my-4">
                         <Avatar size={'lg'} className='!absolute top-[0px]  left-[197px]' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
-                        <p>“Sangat puas belanja disini semua
+                        <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
                             dan terbaru semua modelnya”
 
@@ -49,7 +49,7 @@ const Carousel = () => {
                     <div className="shadow p-5 rounded-lg text-center mx-10 my-4">
                         <Avatar size={'lg'} className='!absolute top-[0px]  left-[197px]' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
-                        <p>“Sangat puas belanja disini semua
+                        <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
                             dan terbaru semua modelnya”
 
@@ -64,7 +64,7 @@ const Carousel = () => {
                     <div className="shadow p-5 rounded-lg text-center mx-10 my-4">
                         <Avatar size={'lg'} className='!absolute top-[0px]  left-[197px]' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                         <h5 className='mt-10 mb-4'>Indri Jasmine</h5>
-                        <p>“Sangat puas belanja disini semua
+                        <p>&ldquo;Sangat puas belanja disini semua
                             barangnya sangat memuaskan
                             dan terbaru semua modelnya”
 
