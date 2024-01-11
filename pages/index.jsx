@@ -15,8 +15,8 @@ const index = () => {
           <h2 className="text-[50px] text-secondary leading-[66px] font-light">WELCOME TO</h2>
           <h2 className="font-bold text-[96px] leading-[100px] text-secondary mb-[35px]">MyShoes</h2>
           <p className="font-normal text-[18px] leading-[30px] mb-[25px]">MyShoes merupakan toko sepatu online yang menjual berbagai macam sepatu, mulai dari sneakers, sepatu futsal, sepatu running, heels, dan berbagai macam sepatu lainnya.</p>
-          <p className="font-normal text-[18px] leading-[30px] ">Tertarik untuk belanja di MyShoes? Langsung klik aja tombol di bawah ini</p>
-          <button className="mt-3 button-reverse-border">Buat Akun</button>
+          <p className="font-normal text-[18px] leading-[30px] mb-4">Tertarik untuk belanja di MyShoes? Langsung klik aja tombol di bawah ini</p>
+          <Link className=" button-reverse-border" href={'/register'}>Buat Akun</Link>
         </div>
         <div className="col-span-1 flex justify-end">
           <div className="">

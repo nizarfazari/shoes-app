@@ -15,11 +15,11 @@ const Register = () => {
         <div className="bg-primary flex flex-col items-center justify-center">
           <h1 className="text-center text-[48px] leading-[24px] text-white mb-8">Buat Akun</h1>
           <div className="flex flex-col items-center gap-[25px]">
-            <input type="text" className="input-account" />
-            <input type="text" className="input-account" />
-            <input type="text" className="input-account" />
-            <input type="text" className="input-account" />
-            <button className="button-reverse text-[20px] font-medium" >Register</button>
+            <input type="text" className="input-account" placeholder="username" />
+            <input type="text" className="input-account" placeholder="nama"/>
+            <input type="text" className="input-account" placeholder="password"/>
+            <input type="text" className="input-account" placeholder="email"/>
+            <Link className="button-reverse text-[20px] font-medium" href={'/login'} >Register</Link>
           </div>
           <p className="text-white my-4">Atau gunakan email untuk registrasi</p>
           <div className="button-reverse text-[20px] font-medium flex items-center">

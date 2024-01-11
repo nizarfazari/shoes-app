@@ -17,8 +17,8 @@ const Login = () => {
             <div className="bg-primary flex flex-col items-center justify-center">
                 <h1 className="text-center text-[48px] leading-[24px] text-white mb-8">Login</h1>
                 <div className="flex flex-col items-center gap-[25px]">
-                    <input type="text" className="input-account" />
-                    <input type="text" className="input-account" />
+                    <input type="text" className="input-account" placeholder="username" />
+                    <input type="text" className="input-account" placeholder="password" />
                     <button className="button-reverse text-[20px] font-medium" href="">Login</button>
                 </div>
                 <p className="text-white my-4">Atau gunakan email untuk login</p>
